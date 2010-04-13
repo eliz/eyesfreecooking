@@ -8,6 +8,7 @@ public class main extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //testing from WahSoon
         setContentView(R.layout.main);
     }
 }
