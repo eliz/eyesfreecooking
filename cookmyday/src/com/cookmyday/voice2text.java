@@ -30,7 +30,7 @@ public class voice2text extends Activity {
     @Override 
     public void onCreate(Bundle savedInstanceState) { 
         super.onCreate(savedInstanceState); 
-        setContentView(R.layout.main); 
+        setContentView(R.layout.voice2text); 
         
         Voice_Rec_BTN = (Button) findViewById(R.id.startvoice); 
         //VoiceResults_Txt = (EditText) findViewById(R.id.resultwindow); 
