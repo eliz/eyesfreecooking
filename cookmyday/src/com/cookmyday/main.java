@@ -9,6 +9,6 @@ public class main extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //testing from WahSoon
-        setContentView(R.layout.main!!!!!!!);
+        setContentView(R.layout.main);
     }
 }
