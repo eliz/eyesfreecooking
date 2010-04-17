@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+   android:orientation="vertical"
+   android:padding="10px"
+  >
+	<LinearLayout android:id="@+id/LinearLayout06" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_weight="0">
+	<TextView android:text="View Ingredients:" android:id="@+id/TextView01"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></TextView>
+	<Button android:text="back" android:gravity="right" android:id="@+id/Button04" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>
+	<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/LinearLayout05" android:paddingBottom="20px" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:orientation="vertical">
+	<TextView android:text="Hannan Chicken Rice" android:id="@+id/TextView03" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+	<TableRow android:layout_width="fill_parent">
+         <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
+        <TextView
+            android:text="ingredient1"
+            android:padding="5px" />
+        <TextView
+            android:text="AAAAAAAA"
+           
+            android:padding="5px" />
+</TableRow>
+    <TableRow android:layout_width="fill_parent">
+             <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
+        <TextView
+            android:text="ingredient2"
+            android:padding="5px" />
+        <TextView
+            android:text="BBBBBBBBBBB"
+            android:padding="5px" />
+    </TableRow>
+    	<TableRow android:layout_width="fill_parent">
+         <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
+        <TextView
+            android:text="ingredient1"
+            android:padding="5px" />
+        <TextView
+            android:text="AAAAAAAA"
+           
+            android:padding="5px" />
+</TableRow>
+    <TableRow android:layout_width="fill_parent">
+             <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
+        <TextView
+            android:text="ingredient2"
+            android:padding="5px" />
+        <TextView
+            android:text="BBBBBBBBBBB"
+            android:padding="5px" />
+    </TableRow>
+    </TableLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

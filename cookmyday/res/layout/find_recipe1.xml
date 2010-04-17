@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+   android:orientation="vertical"
+   android:padding="10px"
+  >
+  <LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_weight="0">
+	<TextView android:text="Find Recipe:" android:id="@+id/TextView01"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></TextView>
+	<Button android:text="back" android:gravity="right" android:id="@+id/Button04" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>
+
+	<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+	<TextView android:text="Featured Recipe:" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<LinearLayout android:id="@+id/LinearLayout01" android:paddingBottom="20px" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:orientation="horizontal">
+		<ImageView android:id="@+id/featuredRecipe" android:background="@drawable/featuredRecipe" android:layout_width="100px" android:layout_height="100px"></ImageView>
+		<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:orientation="vertical">
+			<TextView android:text="Hannan Chicken Rice" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<TextView android:text="Hannan Chicken Rice is aaaaa aaaaaaaa aaaaaa aaaaaaaaa aaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<Button android:text="View Detail " style="buttonStyleSmall" android:id="@+id/Button01" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout04" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_weight="0">
+		<Button android:text="Browse More " android:id="@+id/Button02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+		<Button android:text="Cruise Search " android:id="@+id/Button03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+	</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+
+
+</LinearLayout>
