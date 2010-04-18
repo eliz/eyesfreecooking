@@ -1,73 +1,58 @@
-package com.example.cookmyday;
+package com.cookmyday;
 
 /** CS3248 
  * I hope it's working
 */
 
-import android.app.ListActivity;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
-public class MainMenu extends ListActivity implements OnItemClickListener {
-	
-	static final String[] INPUT_METHODS = new String[] {
-		"Find recipe",
-		"View shopping list",
-		"Start cooking",
-		"Share experience online",
-		"?"
-	};
+public class MainMenu extends Activity implements OnClickListener {
+	Button btnOne;
+	Button btnTwo;
+	Button btnThree;
+	Button btnFour;
+	Button btnQn;
+	Intent newScreen = null;
 	
 	/** Called when the activity is first created. */
-	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setRequestedOrientation(1);
-		setListAdapter(new ArrayAdapter<String>(this,
-		android.R.layout.simple_list_item_1, INPUT_METHODS));
-		getListView().setTextFilterEnabled(true);
-		getListView().setOnItemClickListener(this);
+		setContentView(R.layout.mainmenu);
+		btnOne = (Button) findViewById(R.id.Button01);
+		btnTwo = (Button) findViewById(R.id.Button02);
+		btnThree = (Button) findViewById(R.id.Button03);
+		btnFour = (Button) findViewById(R.id.Button04);
+		btnQn = (Button) findViewById(R.id.Button05);
+		btnOne.setOnClickListener(this);
+		btnTwo.setOnClickListener(this);
+		btnThree.setOnClickListener(this);
+		btnFour.setOnClickListener(this);
+		btnQn.setOnClickListener(this);
 	}
 	
-	/** Called when the user clicks on the list */
-	@Override
-	public void onItemClick(AdapterView<?> arg0, View v, int position, long id) {
-		Intent newScreen = null;
-		try {
-			switch(position) {
-				case 0:
-					newScreen = new Intent(v.getContext(), Dummy.class);
-					startActivity(newScreen);
-					break;
-				case 1:
-					newScreen = new Intent(v.getContext(), Dummy.class);
-					startActivity(newScreen);
-					break;
-				case 2:
-					newScreen = new Intent(v.getContext(), Dummy.class);
-					startActivity(newScreen);
-					break;
-				case 3:
-					newScreen = new Intent(v.getContext(), Dummy.class);
-					startActivity(newScreen);
-					break;
-				case 4:
-					newScreen = new Intent(v.getContext(), Dummy.class);
-					startActivity(newScreen);
-					break;
+	
+	/** Called when the Next button is pressed. */
+	public void onClick(View v) {
+		if (v == btnOne) {
+				newScreen = new Intent(v.getContext(), Dummy.class);
+				startActivityForResult(newScreen, 0);
+			} else if (v == btnTwo){
+				newScreen = new Intent(v.getContext(), Dummy.class);
+				startActivityForResult(newScreen, 0);
+			} else if (v == btnThree){
+				newScreen = new Intent(v.getContext(), Dummy.class);
+				startActivityForResult(newScreen, 0);
+			} else if (v == btnFour){
+				newScreen = new Intent(v.getContext(), Dummy.class);
+				startActivityForResult(newScreen, 0);
+			} else if (v == btnQn){
+				newScreen = new Intent(v.getContext(), HelpPage.class);
+				startActivityForResult(newScreen, 0);
 			}
-			
-		}
-		
-		catch(Exception e) {
-			Toast.makeText(MainMenu.this, "Error creating " + INPUT_METHODS[position] + ": " + e.toString(), Toast.LENGTH_LONG).show();
-		}
-		
 	}
-	
 }
