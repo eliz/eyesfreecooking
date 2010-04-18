@@ -16,14 +16,14 @@ public class Dummy extends Activity implements OnClickListener {
 	Intent newScreen = null;
 	
 	/** Called when the activity is first created. */
+	@Override	
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.dummy);
-
 		btnBack = (Button) findViewById(R.id.Buttonback);
 		btnBack.setOnClickListener(this);
 	}
-
+	
 	public void onClick(View v) {
 		if(v == btnBack){
 			newScreen = new Intent(v.getContext(), main.class);

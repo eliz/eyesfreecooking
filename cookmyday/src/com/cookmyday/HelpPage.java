@@ -25,7 +25,6 @@ public class HelpPage extends Activity implements OnClickListener {
 		btnBack.setOnClickListener(this);
 	}
 
-	@Override
 	public void onClick(View v) {
 		if(v == btnBack){
 			newScreen = new Intent(v.getContext(), main.class);
