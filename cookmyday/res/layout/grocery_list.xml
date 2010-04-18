@@ -16,10 +16,10 @@
 	<TableRow android:layout_width="fill_parent" android:layout_weight="0" >
          <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
         <TextView
-            android:text="ingredient1"
+            android:text="ingredient1" android:id="@+id/Ingredient1"
             android:padding="5px" />
         <TextView
-            android:text="AAAAAAAA"
+            android:text="AAAAAAAA" android:id="@+id/Quantity1"
            
             android:padding="5px" />
 		<CheckBox android:text="" android:id="@+id/CheckBox01" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
@@ -27,20 +27,20 @@
     <TableRow android:layout_width="fill_parent">
              <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
         <TextView
-            android:text="ingredient2"
+            android:text="ingredient2" android:id="@+id/Ingredient2"
             android:padding="5px" />
         <TextView
-            android:text="BBBBBBBBBBB"
+            android:text="BBBBBBBBBBB" android:id="@+id/Quantity2"
             android:padding="5px" />
     <CheckBox android:text="" android:id="@+id/CheckBox02" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
 </TableRow>
     	<TableRow android:layout_width="fill_parent">
          <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
         <TextView
-            android:text="ingredient1"
+            android:text="ingredient1" android:id="@+id/Ingredient3"
             android:padding="5px" />
         <TextView
-            android:text="AAAAAAAA"
+            android:text="AAAAAAAA" android:id="@+id/Quantity3"
            
             android:padding="5px" />
 <CheckBox android:text="" android:id="@+id/CheckBox03" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
@@ -48,20 +48,20 @@
     <TableRow android:layout_width="fill_parent">
              <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
         <TextView
-            android:text="ingredient2"
+            android:text="ingredient2" android:id="@+id/Ingredient4"
             android:padding="5px" />
         <TextView
-            android:text="BBBBBBBBBBB"
+            android:text="BBBBBBBBBBB" android:id="@+id/Quantity4"
             android:padding="5px" />
     <CheckBox android:text="" android:id="@+id/CheckBox04" android:layout_width="wrap_content" android:layout_height="wrap_content" ></CheckBox>
 </TableRow>
     	<TableRow android:layout_width="fill_parent">
          <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
         <TextView
-            android:text="ingredient1"
+            android:text="ingredient1" android:id="@+id/Ingredient5"
             android:padding="5px" />
         <TextView
-            android:text="AAAAAAAA"
+            android:text="AAAAAAAA" android:id="@+id/Quantity5"
            
             android:padding="5px" />
              <CheckBox android:text="" android:id="@+id/CheckBox05" android:layout_width="wrap_content" android:layout_height="wrap_content" ></CheckBox>
@@ -69,10 +69,10 @@
     <TableRow android:layout_width="fill_parent">
              <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
         <TextView
-            android:text="ingredient2"
+            android:text="ingredient2" android:id="@+id/Ingredient6"
             android:padding="5px" />
         <TextView
-            android:text="BBBBBBBBBBB"
+            android:text="BBBBBBBBBBB" android:id="@+id/Quantity6"
             android:padding="5px" />
              <CheckBox android:text="" android:id="@+id/CheckBox06" android:layout_width="wrap_content" android:layout_height="wrap_content" ></CheckBox>
     </TableRow>
