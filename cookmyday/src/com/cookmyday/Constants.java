@@ -27,7 +27,7 @@ public class Constants {
 	
 	static String[] ingredients = {"Rice", "Japanese rice vinegar", "Sugar", "Salt", "Salmon spread", "Seaweed"};
 	static String[] quantity = {"2 cups", "3 tablespoon", "3 tablespoon", "2 teaspoon", "1 can", "a few pieces"};
-	
+	static boolean[] bought = {false, false, false, false, false, false};
 	static int currentStepNo = 0;
 	
 	static String currentDishName = "Simple Salmon Onigiri";
