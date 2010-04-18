@@ -14,4 +14,6 @@
 <Button android:id="@+id/Button03" android:layout_y="130dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start Cooking!" android:layout_x="70dip"></Button>
 <Button android:id="@+id/Button04" android:layout_y="180dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="40dip" android:text="Share experience online!"></Button>
 <Button android:id="@+id/Button05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="help" android:layout_y="225dip" android:layout_x="185dip"></Button>
+
+
 </AbsoluteLayout>
