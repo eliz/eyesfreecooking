@@ -15,7 +15,7 @@
 		<LinearLayout android:id="@+id/LinearLayout05" android:paddingBottom="20px" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:orientation="vertical">
 	
 	<LinearLayout android:id="@+id/LinearLayout01" android:paddingBottom="20px" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:orientation="horizontal">
-		<ImageView android:id="@+id/featuredRecipe" android:background="@drawable/featuredRecipe" android:layout_width="100px" android:layout_height="100px"></ImageView>
+		<ImageView android:id="@+id/featuredRecipe" android:background="@drawable/featured_recipe" android:layout_width="100px" android:layout_height="100px"></ImageView>
 		<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:orientation="vertical">
 			<TextView android:text="Hannan Chicken Rice" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 			<TextView android:text="Hannan Chicken Rice is aaaaa aaaaaaaa aaaaaa aaaaaaaaa aaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>		
