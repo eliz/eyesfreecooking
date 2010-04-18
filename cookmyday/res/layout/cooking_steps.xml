@@ -13,14 +13,14 @@
 		</LinearLayout>
 	<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
 		<TextView android:text="step:" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
-		<TextView android:text="@+id/step_num" android:id="@+id/step_num" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="step_num" android:id="@+id/step_num" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 		<TextView android:text="/" android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
-		<TextView android:text="@+id/step_total" android:id="@+id/step_total"  android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+		<TextView android:text="step_total" android:id="@+id/step_total"  android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
 	</LinearLayout>
 	</LinearLayout>
 	<ScrollView android:id="@+ID/ScrollView01" android:layout_width="fill_parent" android:layout_height="wrap_content">
 		<LinearLayout android:id="@+id/LinearLayout05" android:paddingBottom="20px" android:layout_width="fill_parent" android:layout_height="wrap_content"  android:orientation="vertical">
-			<TextView android:text="@+id/step_content" android:id="@+id/step_content" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<TextView android:text="step_content" android:id="@+id/step_content" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 		</LinearLayout>
 	</ScrollView>
 <LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_weight="0">

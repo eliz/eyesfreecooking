@@ -12,7 +12,7 @@
 </LinearLayout>
 	<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="wrap_content">
 		<LinearLayout android:id="@+id/LinearLayout05" android:paddingBottom="20px" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:orientation="vertical">
-	<TextView android:text="@+id/dish_name" android:id="@+id/dish_name" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="dish_name" android:id="@+id/dish_name" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
 	<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" >
 	<TableRow android:layout_width="fill_parent">
          <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
