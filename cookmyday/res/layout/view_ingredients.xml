@@ -12,12 +12,12 @@
 </LinearLayout>
 	<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="wrap_content">
 		<LinearLayout android:id="@+id/LinearLayout05" android:paddingBottom="20px" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:orientation="vertical">
-	<TextView android:text="Hannan Chicken Rice" android:id="@+id/TextView03" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="@+id/dish_name" android:id="@+id/dish_name" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
 	<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" >
 	<TableRow android:layout_width="fill_parent">
          <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
         <TextView
-            android:text="ingredient1"
+            android:text="ingredient1", android:id="@+id/ingredient",
             android:padding="5px" />
         <TextView
             android:text="AAAAAAAA"
