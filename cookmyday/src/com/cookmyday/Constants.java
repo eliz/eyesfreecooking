@@ -1,23 +1,26 @@
 package com.cookmyday;
 
+
 /** CS3248 G4
  * this class makes it easier for xml to work with since all the constants here are some sort of global variables
- * jiayou!
 */
 
 public class Constants {
-	static final int	RESET = 10;
+	static int TOTALNUMSTEPS = 10;
+	static int TOTALNUM_INGRED = 3;
+	static String[] recipe = {"This is step 1", "this is step 2...", "we're at step 3", 
+		"moving on to step 4 :)", "step 5 here", "kinda boring? no way, i'm step 6!", "step 7", 
+		"step 8", "step 9, which was eaten by 7?", "FINAL STEP!!! step 10!!"};
+	static String[] ingredients = {"chicken", "chicky", "egg"};
+	static int currentStepNo = 0;
 	
-	//we don't need any logging right?
-	//static final String	PWD_FILE = "BPPwd", NUM_LOG_FILE = "BPNumLog",
-	//						STROKEDIALER_LOG_FILE = "BPStrokeDialerLog",
-	//						WHEEL_LOG_FILE = "BPWheelLog",
-	//						MUSIC_LOG_FILE = "BPMusicLog";
-
-	static String currentUser = "User 1";
+	static String currentDishName = "Empty Dish Nameee";
 	
-	static void setUser (String User){
-		currentUser = User;
+	static void updateStepNo (){
+		if (currentStepNo -1 == TOTALNUMSTEPS){
+			//last step already, do nth
+		} else {
+			currentStepNo++;
+		}
 	}
-	
 }
