@@ -54,7 +54,6 @@ public class find_recipe extends Activity implements OnClickListener {
 		if (v == btnBack) {
 			String lastPage = Constants.lastPage;
 					//how to get back?
-				
 		} else if (v == btnBrowse){
 			//do nth for now
 		} else if (v == btnSearch){
