@@ -55,7 +55,29 @@
             android:padding="5px" />
     <CheckBox android:text="" android:id="@+id/CheckBox04" android:layout_width="wrap_content" android:layout_height="wrap_content" ></CheckBox>
 </TableRow>
+    	<TableRow android:layout_width="fill_parent">
+         <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
+        <TextView
+            android:text="ingredient1"
+            android:padding="5px" />
+        <TextView
+            android:text="AAAAAAAA"
+           
+            android:padding="5px" />
+             <CheckBox android:text="" android:id="@+id/CheckBox05" android:layout_width="wrap_content" android:layout_height="wrap_content" ></CheckBox>
+</TableRow>
+    <TableRow android:layout_width="fill_parent">
+             <ImageButton android:id="@+id/ImageButton01" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>  
+        <TextView
+            android:text="ingredient2"
+            android:padding="5px" />
+        <TextView
+            android:text="BBBBBBBBBBB"
+            android:padding="5px" />
+             <CheckBox android:text="" android:id="@+id/CheckBox06" android:layout_width="wrap_content" android:layout_height="wrap_content" ></CheckBox>
+    </TableRow>
     </TableLayout>
+
     <Button android:text="Save and Close Groceries List" android:id="@+id/Button01" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
 </LinearLayout>
 </ScrollView>
