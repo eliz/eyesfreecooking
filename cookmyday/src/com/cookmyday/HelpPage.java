@@ -12,7 +12,7 @@ import android.widget.Button;
 
 public class HelpPage extends Activity implements OnClickListener {
 	
-	Button btnStart;
+	Button btnBack;
 	Intent newScreen = null;
 	
 	/** Called when the activity is first created. */
@@ -21,14 +21,16 @@ public class HelpPage extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.help);
 
-	//	btnStart = (Button) findViewById(R.id.btnStart);
-	//	btnStart.setOnClickListener(this);
+		btnBack = (Button) findViewById(R.id.Buttonback);
+		btnBack.setOnClickListener(this);
 	}
 
 	@Override
 	public void onClick(View v) {
-		// TODO Auto-generated method stub
-		
+		if(v == btnBack){
+			newScreen = new Intent(v.getContext(), main.class);
+			startActivityForResult(newScreen, 0);
+		}		
 	}
 
 	
