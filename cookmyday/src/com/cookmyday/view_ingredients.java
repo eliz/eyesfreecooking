@@ -22,7 +22,7 @@ public class view_ingredients extends Activity implements OnClickListener {
 	/** Called when the activity is first created. */
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.find_recipe1);
+		setContentView(R.layout.view_ingredients);
 		
 		dish_name = (TextView) findViewById(R.id.dish_name);
 

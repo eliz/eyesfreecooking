@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 /** CS3248 G4
@@ -69,15 +70,15 @@ public class cooking_steps extends Activity implements OnClickListener {
 					//how to get back?
 				}
 			} else if (v == btnNext){
-				//if(currentStep == totalStep){
-				//	Toast.makeText(cooking_steps.this, "This is the last step", Toast.LENGTH_LONG).show();
-			//	} else{
+				if(currentStep == totalStep){
+					Toast.makeText(cooking_steps.this, "This is the last step", Toast.LENGTH_LONG).show();
+				} else{
 					Constants.updateStepNo();
 					newScreen = new Intent(v.getContext(), cooking_steps.class);
 					startActivityForResult(newScreen, 0);
-			//	}
+				}
 			} else if (v == btnRepeat){
-				//dont edit anything, repeat the whole thing
+				//don't edit anything, repeat the whole thing
 				newScreen = new Intent(v.getContext(), cooking_steps.class);
 				startActivityForResult(newScreen, 0);
 			} 

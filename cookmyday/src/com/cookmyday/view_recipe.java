@@ -20,13 +20,12 @@ public class view_recipe extends Activity implements OnClickListener {
 	Intent newScreen = null;
 	TextView dish_name;
 	TextView dish_description;
-	TextView dish_description2;
 	StringBuffer sb = new StringBuffer();
 	
 	/** Called when the activity is first created. */
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.find_recipe1);
+		setContentView(R.layout.view_recipe);
 		
 		dish_name = (TextView) findViewById(R.id.dish_name);
 
@@ -39,12 +38,6 @@ public class view_recipe extends Activity implements OnClickListener {
 		sb.delete(0, sb.length());
 		sb.append(Constants.dishDescription);
 		dish_description.setText(sb.toString());
-		
-		dish_description2 = (TextView) findViewById(R.id.dish_description);
-		
-		sb.delete(0, sb.length());
-		sb.append(Constants.dishDescription);
-		dish_description2.setText(sb.toString());
 		
 		btnBack = (Button) findViewById(R.id.Buttonback);
 		btnIngred = (Button) findViewById(R.id.ButtonIngred);
