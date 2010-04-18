@@ -31,6 +31,4 @@ public class HelpPage extends Activity implements OnClickListener {
 			startActivityForResult(newScreen, 0);
 		}		
 	}
-
-	
 }
