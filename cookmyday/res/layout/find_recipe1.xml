@@ -24,7 +24,7 @@
 	</LinearLayout>
 	<LinearLayout android:id="@+id/LinearLayout04" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_weight="0">
 		<Button android:text="Browse More " android:id="@+id/Button02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></Button>
-		<Button android:text="Cruise Search " android:id="@+id/Button03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+		<Button android:text="Cuisine Search " android:id="@+id/Button03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></Button>
 	</LinearLayout>
 		</LinearLayout>
 	</ScrollView>
