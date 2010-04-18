@@ -22,10 +22,15 @@ public class find_recipe extends Activity implements OnClickListener {
 	TextView dish_description;
 	StringBuffer sb = new StringBuffer();
 	
+	
 	/** Called when the activity is first created. */
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.find_recipe1);
+		
+		//this to be shifted to where the confirmation will be made in future
+		Constants.timer.put(7,15);
+		Constants.timer.put(9,10);
 		
 		dish_name = (TextView) findViewById(R.id.dish_name);
 

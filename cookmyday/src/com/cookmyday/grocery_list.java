@@ -177,6 +177,7 @@ public class grocery_list extends Activity implements OnClickListener {
 			
 			startActivityForResult(newScreen, 0);
 		}
+		
 
 	}
 }
