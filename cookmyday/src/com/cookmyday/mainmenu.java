@@ -45,7 +45,7 @@ public class mainmenu extends Activity implements OnClickListener {
 				newScreen = new Intent(v.getContext(), Dummy.class);
 				startActivityForResult(newScreen, 0);
 			} else if (v == btnThree){
-				newScreen = new Intent(v.getContext(), Dummy.class);
+				newScreen = new Intent(v.getContext(), cooking_steps.class);
 				startActivityForResult(newScreen, 0);
 			} else if (v == btnFour){
 				newScreen = new Intent(v.getContext(), Dummy.class);

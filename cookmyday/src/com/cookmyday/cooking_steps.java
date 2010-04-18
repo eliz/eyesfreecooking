@@ -61,9 +61,14 @@ public class cooking_steps extends Activity implements OnClickListener {
 	/** Called when the Next button is pressed. */
 	public void onClick(View v) {
 		if (v == btnBack) {
-				Constants.updateStepNoPrev();
-				newScreen = new Intent(v.getContext(), cooking_steps.class);
-				startActivityForResult(newScreen, 0);
+				boolean check = Constants.updateStepNoPrev();
+				if(check){
+					newScreen = new Intent(v.getContext(), cooking_steps.class);
+					startActivityForResult(newScreen, 0);
+				} else {
+					String lastPage = Constants.lastPage;
+					//how to get back?
+				}
 			} else if (v == btnNext){
 				//if(currentStep == totalStep){
 				//	Toast.makeText(cooking_steps.this, "This is the last step", Toast.LENGTH_LONG).show();
@@ -73,7 +78,7 @@ public class cooking_steps extends Activity implements OnClickListener {
 					startActivityForResult(newScreen, 0);
 			//	}
 			} else if (v == btnRepeat){
-				//dont edit anything
+				//dont edit anything, repeat the whole thing
 				newScreen = new Intent(v.getContext(), cooking_steps.class);
 				startActivityForResult(newScreen, 0);
 			} 

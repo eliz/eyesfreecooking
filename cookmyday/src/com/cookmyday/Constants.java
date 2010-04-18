@@ -12,9 +12,13 @@ public class Constants {
 		"moving on to step 4 :)", "step 5 here", "kinda boring? no way, i'm step 6!", "step 7", 
 		"step 8", "step 9, which was eaten by 7?", "FINAL STEP!!! step 10!!"};
 	static String[] ingredients = {"chicken", "chicky", "egg"};
+	static String[] quantity = {"one", "1", "many"};
+	
 	static int currentStepNo = 0;
 	
 	static String currentDishName = "Empty Dish Nameee";
+	static String dishDescription = "How should I describe this...hmmm";
+	static String lastPage = "";
 	
 	static void updateStepNo (){
 		if (currentStepNo -1 == TOTALNUMSTEPS){
@@ -24,9 +28,12 @@ public class Constants {
 		}
 	}
 	
-	static void updateStepNoPrev (){
+	static boolean updateStepNoPrev (){
 		if (currentStepNo > 0){
 			currentStepNo --;
+			return true;
+		} else {
+			return false;
 		}
 	}
 }
