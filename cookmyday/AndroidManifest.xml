@@ -15,9 +15,11 @@
 <activity android:name="HelpPage"></activity>
 <activity android:name="Dummy"></activity>
 <activity android:name="cooking_steps"></activity>
+<activity android:name="cooking_steps_timer"></activity>
 <activity android:name="find_recipe"></activity>
 <activity android:name="view_recipe"></activity>
 <activity android:name="view_ingredients"></activity>
+<activity android:name="grocery_list"></activity>
 
     </application>
     <uses-sdk android:minSdkVersion="3" />

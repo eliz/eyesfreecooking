@@ -66,7 +66,7 @@ public class cooking_steps extends Activity implements OnClickListener {
 					newScreen = new Intent(v.getContext(), cooking_steps.class);
 					startActivityForResult(newScreen, 0);
 				} else {
-					newScreen = new Intent(v.getContext(), main.class);
+					newScreen = new Intent(v.getContext(), mainmenu.class);
 					startActivityForResult(newScreen, 0);
 				}
 			} else if (v == btnNext){
