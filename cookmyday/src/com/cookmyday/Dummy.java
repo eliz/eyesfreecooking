@@ -1,4 +1,4 @@
-package com.example.cookmyday;
+package com.cookmyday;
 
 /** CS3248
  * this class is used for any page under construction 

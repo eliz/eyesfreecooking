@@ -1,4 +1,4 @@
-package com.example.cookmyday;
+package com.cookmyday;
 
 /** CS3248 G4
  * this class makes it easier for xml to work with since all the constants here are some sort of global variables
